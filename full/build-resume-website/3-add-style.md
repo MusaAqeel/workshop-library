@@ -25,6 +25,7 @@ Let's start by creating a CSS file to hold our code, so you can add style to the
         margin: auto;
     }
     ```
+    
 
 Notice `font-family`, which is used to select the font. There are five fonts listed. Because users may not have a particular font installed, CSS offers the ability to fallback to the next font. In this case you're telling the browser to try Segoe UI first, then Tahoma if that's not installed, and so on. 
 
